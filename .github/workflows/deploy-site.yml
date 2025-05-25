@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   # Dès qu'une activité sur la PR ciblant la master est détectée on déclenche le workflow
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   create_env:
